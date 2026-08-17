@@ -1,0 +1,44 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# DLT runtime state and local data
+.dlt/
+*.duckdb
+*.duckdb.wal
+
+# Logs, temporary files, and backups
+logs/
+*.log
+tmp/
+temp/
+.tmp/
+*.tmp
+*.bak
+*.backup
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
