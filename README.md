@@ -2,7 +2,9 @@
 
 A Flask + DLT service that extracts **HubSpot CRM Deals** into **PostgreSQL**, runs asynchronous extraction scans with checkpoint/resume, and serves the extracted data through a REST API with Swagger documentation.
 
-Scaffolded with the **DLT Generator** and customized into a complete **HubSpot CRM v3 Deals** integration. This is an assessment/demo implementation for the HubSpot Deals Data Integration internship submission.
+[Data Load Tool (DLT)](https://dlthub.com). It manages asynchronous extraction scans, persists checkpoints for crash recovery, and serves completed results back through a REST API.
+
+Built with **Python 3.11**, **Flask / Flask-RESTX**, **DLT + PostgreSQL**, **SQLAlchemy**, **Redis**, and **Docker Compose**. Scan credentials are encrypted at rest with `cryptography`.
 
 ## Overview
 
